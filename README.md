@@ -45,17 +45,15 @@ The website showcases my skills, projects, resume, and contact information — a
 
 ---
 
-## 🚀 Live Demo  
-(After deploying using GitHub Pages)
 
 🔗 **Live Link:**  
-https://yourusername.github.io/CodeAlpha_Portfolio/
+https://moumita0303.github.io/CodeAlpha_Portfolio/
 
 ---
 
 ## 💻 GitHub Repository  
 🔗 **Repo Link:**  
-https://github.com/yourusername/CodeAlpha_Portfolio
+https://github.com/Moumita0303/CodeAlpha_Portfolio
 
-## 📁 Folder Structure
+
 
