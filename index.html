@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>MOUMITA PAUL — Portfolio</title>
+  <meta name="description" content="Portfolio of Moumita Paul — Frontend Developer" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <header class="nav-wrap">
+    <div class="container nav-container">
+      <div class="brand">
+        <a href="#home">MOUMITA PAUL</a>
+      </div>
+
+      <button id="nav-toggle" class="nav-toggle" aria-label="Toggle navigation">☰</button>
+
+      <nav id="nav" class="nav">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section id="home" class="hero">
+    <div class="container hero-grid">
+      <div class="hero-text">
+        <h1>Hello, I'm <span class="accent">Moumita Paul</span></h1>
+        <p class="lead">Frontend Developer | Building responsive and accessible web apps with HTML, CSS & JavaScript.</p>
+        <div class="cta">
+          <a class="btn" href="#projects">View Projects</a>
+          <a href="Moumita-Paul-Resume.pdf" download class="btn">Download Resume</a>
+
+        </div>
+      </div>
+      <div class="profile-image">
+        <img src="images/profile.png" alt="Your portrait or design screenshot">
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section">
+    <div class="container">
+      <h2 class="section-title">About Me</h2>
+      <p>I’m a B.Tech CSE student at JIS College of Engineering (MAKAUT). I build front-end interfaces with clean code, accessible markup, and responsive layout. I enjoy learning tools and deploying projects to GitHub Pages.</p>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="section alt">
+    <div class="container">
+      <h2 class="section-title">Skills</h2>
+      <ul class="skills-list">
+        <li>HTML5</li>
+        <li>CSS3 (Flexbox, Grid)</li>
+        <li>JavaScript (ES6+)</li>
+        <li>Responsive Design</li>
+        <li>Git & GitHub</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="section">
+    <div class="container">
+      <h2 class="section-title">Projects</h2>
+
+      <div class="projects-grid">
+        <!-- Project 1 -->
+        <article class="project-card">
+          <img src="images/img1.jpg" alt="Project 1 screenshot">
+          <div class="project-body">
+            <h3>Image Gallery</h3>
+            <p>Responsive gallery with lightbox and filters. Built with HTML, CSS and JS.</p>
+            <div class="project-links">
+              <a class="small-btn" href="#" target="_blank">Live</a>
+              <a class="small-btn" href="#" target="_blank">GitHub</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 2 -->
+        <article class="project-card">
+          <img src="images/img2.jpg" alt="Project 2 screenshot">
+          <div class="project-body">
+            <h3>Calculator</h3>
+            <p>Basic calculator that supports keyboard input and decimal arithmetic.</p>
+            <div class="project-links">
+              <a class="small-btn" href="#" target="_blank">Live</a>
+              <a class="small-btn" href="#" target="_blank">GitHub</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 3 -->
+        <article class="project-card">
+          <img src="images/img3.jpg" alt="Project 3 screenshot">
+          <div class="project-body">
+            <h3>Music Player</h3>
+            <p>Custom audio player with playlist, progress and volume control.</p>
+            <div class="project-links">
+              <a class="small-btn" href="#" target="_blank">Live</a>
+              <a class="small-btn" href="#" target="_blank">GitHub</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section alt">
+    <div class="container">
+      <h2 class="section-title">Contact</h2>
+      <p>Email: <a href="mailto:yourmail@example.com">moumita03@example.com</a></p>
+      <p>LinkedIn: <a href="#" target="_blank">"https://linkedin.com/in/moumitapaul"</a> • GitHub: <a href="#" target="_blank">https://github.com/Moumita0303</a></p>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <p>Made by Moumita Paul — © <span id="year"></span></p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
